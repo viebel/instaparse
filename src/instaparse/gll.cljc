@@ -28,8 +28,8 @@
        [goog.i18n.uChar :as u]))
 
   #?(:cljs
-     (:use-macros
-       [instaparse.gll :only
+     (:require-macros
+       [instaparse.gll :refer
         [log profile dprintln dpprint success
          attach-diagnostic-meta trace-or-false]])))
 
